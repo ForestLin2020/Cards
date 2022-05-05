@@ -1,0 +1,139 @@
+.template {
+  display: none;
+}
+
+.card {
+  margin: 0 auto; /* center the cards  */
+  float: none;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  width: 350px;
+  height: 440px;
+}
+
+.card:hover {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transform: translateY(-10px); /* move the element up by 5px */
+  transition-duration: 250ms; /* move duration*/
+}
+
+.card-head {
+  background-color: #404040;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 20px 30px 30px 30px;
+  height: 90px;
+  font-size: 19px;
+  line-height: 16pt;
+}
+
+.card-body {
+  color: #404040;
+  background-color: rgb(250, 250, 250);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid #cccccc;
+  padding-right: 30px;
+  padding-left: 30px;
+  /* font-family: 'PT Sans', sans-serif; */
+}
+
+.card-body .basic-info-label {
+  font-size: 14px;
+}
+
+.card-body .basic-info-desc {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+}
+
+.card-title {
+  color: #fff;
+}
+
+.card-body p {
+  margin: 0;
+}
+
+.icon {
+  background-color: #404040;
+}
+
+/* enable check icon when status is completed */
+.circle-check {
+  /* background-color: #89D72D; */
+  border-radius: 100%;
+}
+
+.basic-info {
+  margin-bottom: 10px;
+}
+
+.btn-view-campaign {
+  color: #404040;
+  background-color: #89D72D;
+  text-align: center;
+  border-radius: 20px;
+  width: 50%;
+  margin: 0 auto; /* center the button  */
+}
+
+.btn-view-campaign-enhance {
+  color: #89D72D;
+  background-color: #404040;
+}
+
+.date-complete {
+  margin-top: -35px;
+  margin-bottom: 20px;
+}
+
+.date-complete a {
+  font-family: 'PT Sans Narrow', sans-serif;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  /* padding: 0; */
+  font-size: 14px;
+}
+
+.date-complete .info {
+  /* size: 30%; */
+  color: #404040;
+  fill : #404040;
+  /* background-color: #89D72D; */
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  margin: 0 auto; /* center the button  */
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.4);
+}
+
+.date-complete svg {
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+}
+
+.basic-info svg {
+  background-color: #404040;
+  fill : #FFA500;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  /* width: 200% */
+}
+
+/* @media only screen and (max-width: 319px) {
+  .card {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 320px) {
+  .card {
+    width: 300px;
+  }
+} */
